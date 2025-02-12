@@ -9,3 +9,8 @@ word_1 = "robots"
 word_2 = "built"
 word_3 = "today"
 word_4 = "were"
+n1 = int(num_str_1)
+n2 = int(num_str_2)
+fulln = str(n1 + n2)
+sentence = fulln + " " + word_1 + " " + word_4 + " " + word_2 + " " + word_3
+print(sentence)
